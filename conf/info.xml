@@ -3,15 +3,15 @@
 	<title xml:lang="ko">닉네임 자동 입력 애드온</title>
 	<title xml:lang="jp">ニックネーム自動入力アドオン</title>
 	<title xml:lang="en">Automatic nickname input add-on</title>
-    <description xml:lang="ko">
+	<description xml:lang="ko">
 		비회원의 닉네임을 기억하여 자동으로 입력되도록하는 애드온입니다.
-    </description>
-    <description xml:lang="jp">
-        非会員のニックネームを記憶して自動的に入力されるようにするアドオンです。
-    </description>
-    <description xml:lang="en">
-        Store guest nickname to automatically input nickname.
-    </description>
+	</description>
+	<description xml:lang="jp">
+		非会員のニックネームを記憶して自動的に入力されるようにするアドオンです。
+	</description>
+	<description xml:lang="en">
+		Store guest nickname to automatically input nickname.
+	</description>
 	<version>1.0</version>
 	<date>2014-11-03</date>
 
