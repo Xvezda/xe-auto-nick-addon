@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon version="0.2">
+	<title xml:lang="ko">닉네임 자동 입력 애드온</title>
+	<title xml:lang="jp">ニックネーム自動入力アドオン</title>
+	<title xml:lang="en">Automatic nickname input add-on</title>
+    <description xml:lang="ko">
+		비회원의 닉네임을 기억하여 자동으로 입력되도록하는 애드온입니다.
+    </description>
+    <description xml:lang="jp">
+        非会員のニックネームを記憶して自動的に入力されるようにするアドオンです。
+    </description>
+    <description xml:lang="en">
+        Store guest nickname to automatically input nickname.
+    </description>
+	<version>1.0</version>
+	<date>2014-11-03</date>
+
+	<author email_address="xvezda@naver.com" link="http://xvezda.blog.me">
+		<name xml:lang="ko">즈베즈다</name>
+		<name xml:lang="jp">ズベズダ</name>
+		<name xml:lang="en">Xvezda</name>
+	</author>
+</addon>
