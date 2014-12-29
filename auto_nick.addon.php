@@ -23,7 +23,14 @@ if($called_position == 'after_module_proc' && Context::get('module') != 'admin' 
 
 	if($_COOKIE['auto_nick'])
 	{
-		Context::addHtmlFooter('<script>jQuery("input[name=nick_name]").focus().val(decodeURIComponent("'.htmlentities($_COOKIE['auto_nick']).'"));</script>');
+		if(Mobile::isFromMobilePhone())
+		{
+			Context::addHtmlFooter('<script>jQuery("input[name=nick_name]").val(decodeURIComponent("'.htmlentities($_COOKIE['auto_nick']).'"));</script>');
+		}
+		else
+		{
+			Context::addHtmlFooter('<script>jQuery("input[name=nick_name]").focus().val(decodeURIComponent("'.htmlentities($_COOKIE['auto_nick']).'"));</script>');
+		}
 	}
 }
 
